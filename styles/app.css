@@ -1,0 +1,85 @@
+@font-face {
+    font-weight: 400;
+    font-family: "Roboto Mono";
+    src: url("../assets/fonts/RobotoMono-Regular.woff2") format("woff2");
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+  
+    font-family: "Roboto Mono", monospace;
+  
+    background: #333131;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  /* BEGIN (write your solution here) */
+  .calculation {
+    background: #2c3e50;
+    /* height: 100vh;*/
+    width: 300px;
+    font-family: "Roboto Mono", monospace;
+  }
+  
+  .resultBox {
+    padding: 30px;
+    color: white;
+    background: #505c68;
+    text-align: right;
+  }
+  
+  .myButtonRow {
+    display: flex;
+    width: 300px;
+
+  }
+
+  .myButtonLet {
+    width: 75px;
+    height: 75px;
+    display: block;
+    font-size: 1.2em;
+    border: 0;
+    background: #2c3e50;
+    color: white;
+    cursor: pointer;
+  }
+
+  .myButtonLet:hover {
+    background: #364c63;
+  }
+
+  .myDelBut {
+    font-size: 80%;
+  }
+  /* END */
+  
+
+  
+  .small {
+    font-size: 80%;
+  }
+  
+  .bg-blue {
+    background: #3498db;
+  }
+  
+  .bg-blue:hover {
+    background: #67b2e4;
+  }
+  
+  .text-big {
+    font-size: 3em;
+  }
+  
+  .text-gray {
+    color: #ced4d9;
+  }
